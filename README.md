@@ -83,7 +83,7 @@ CUDA_VISIBLE_DEVICES=0 ./eval.sh EPOCH 3DLoMatch
 We also provide pretrained weights in `weights`, use the following command to test the pretrained weights.
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python test.py --snapshot=../../weights/geotransformer-3dmatch.pth.tar --benchmark=3DMatch
+CUDA_VISIBLE_DEVICES=0 python test.py --snapshot=../../weights/3DMatch.pth.tar --benchmark=3DMatch
 CUDA_VISIBLE_DEVICES=0 python eval.py --benchmark=3DMatch --method=lgr
 ```
 
@@ -129,7 +129,7 @@ CUDA_VISIBLE_DEVICES=0 ./eval.sh EPOCH
 We also provide pretrained weights in `weights`, use the following command to test the pretrained weights.
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python test.py --snapshot=../../weights/geotransformer-kitti.pth.tar
+CUDA_VISIBLE_DEVICES=0 python test.py --snapshot=../../weights/KITTI.pth.tar
 CUDA_VISIBLE_DEVICES=0 python eval.py --method=lgr
 ```
 
@@ -161,7 +161,7 @@ We evaluate GeoTransformer on the standard Kitti benchmark as in [PREDATOR](http
 
 | Benchmark |  RRE  |  RTE  |  RR   |
 | :-------- | :---: | :---: | :---: |
-| Kitti     | 0.227 |  6.3  | 99.8  |
+| KITTI  | 0.227 |  6.3  | 99.8  |
 
 ## Acknowledgements
 
