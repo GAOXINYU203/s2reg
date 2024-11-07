@@ -37,7 +37,7 @@ Code has been tested with Ubuntu 20.04, GCC 9.3.0, Python 3.8, PyTorch 1.7.1, CU
 
 ## Pre-trained Weights
 
-We provide pre-trained weights in the [release](https://github.com/qinzheng93/GeoTransformer/releases) page. Please download the latest weights and put them in `weights` directory.
+We provide pre-trained weights from [weights](https://pan.baidu.com/s/1wKk-PtAKfF3UjzW4N4oalQ?pwd=qn5r). Please download the latest weights and put them in `weights` directory.
 
 ## 3DMatch
 
