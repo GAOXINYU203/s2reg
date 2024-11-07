@@ -6,8 +6,6 @@ from geotransformer.modules.transformer import SinusoidalPositionalEmbedding
 import torch.nn.functional as F
 def new_superpoint_label(
     cla,
-    point_c,
-    
 ):
     bows = torch.zeros(133).unsqueeze(0).cuda()
     for i in range(cla.size(0)):
@@ -23,8 +21,6 @@ def new_superpoint_label(
 
 def new_kitti_superpoint_label(
     cla,
-    point_c,
-    
 ):
     bows = torch.zeros(21).unsqueeze(0).cuda()
     for i in range(cla.size(0)):
