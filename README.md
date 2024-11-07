@@ -1,4 +1,4 @@
-# S^2^Reg: Structure-Semantics Collaborative Point Cloud Registration
+# S2Reg: Structure-Semantics Collaborative Point Cloud Registration
 
 Zongyi Xu, Xinyu Gao, Xinqi Jiang, Shiyang Cheng, Qianni Zhang, Weisheng Li, Xinbo Gao
 
@@ -9,7 +9,7 @@ locate the point correspondences based on the geometric information or adopt sem
 out incorrect correspondences. They overlook the underlying correlation between semantics and structure.
 In this paper, we propose a structure-semantics collaborative point cloud registration method. Firstly, we
 propose a Superpoint Semantic Feature Representation module (SSFR), which incorporates multiple semantics of neighbouring points to characterize the semantics of superpoints. Then, through a Structural and
-Semantic Feature correLation with Attention Guidance module (S^2^FLAG), we capture the global correlation of semantics and structure within a point cloud, as well as the consistency of semantics and structure
+Semantic Feature correLation with Attention Guidance module (S2FLAG), we capture the global correlation of semantics and structure within a point cloud, as well as the consistency of semantics and structure
 between point clouds. Moreover, an image semantic segmentation foundation model is employed to acquire semantics when images of the point clouds are available. Extensive experiments demonstrate that our
 method achieves superior performance, especially in low-overlap scenarios.
 
