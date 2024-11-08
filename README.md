@@ -43,7 +43,7 @@ We provide pre-trained weights from [weights](https://pan.baidu.com/s/1wKk-PtAKf
 
 ### Data preparation
 
-The 3DMatch dataset can be downloaded from [PREDATOR](https://github.com/prs-eth/OverlapPredator) and Semantic-3DMatch dataset can be downloaded from [Semantic-3DMatch](https://pan.baidu.com/s/1w_w5ZX4DoKBe3JkEcfrb3Q?pwd=m8m3) . The data should be organized as follows:
+The 3DMatch dataset can be downloaded from [PREDATOR](https://github.com/prs-eth/OverlapPredator) and Semantic-3DMatch dataset can be downloaded from [Semantic-3DMatch](https://pan.baidu.com/s/1-uQTf47WC1fh07PGhTr2uQ?pwd=sffc) . The data should be organized as follows:
 
 ```text
 --data--3DMatch--metadata
