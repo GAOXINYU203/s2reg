@@ -148,7 +148,7 @@ Note that the learning rate is multiplied by the number of GPUs by default as th
 
 ### 3DMatch
 
-We evaluate GeoTransformer on the standard 3DMatch/3DLoMatch benchmarks as in [PREDATOR](https://arxiv.org/abs/2011.13005).
+We evaluate S2Reg on the standard 3DMatch/3DLoMatch benchmarks as in [PREDATOR](https://arxiv.org/abs/2011.13005).
 
 | Benchmark |  FMR  |  IR   |  RR   |
 | :-------- | :---: | :---: | :---: |
@@ -157,7 +157,7 @@ We evaluate GeoTransformer on the standard 3DMatch/3DLoMatch benchmarks as in [P
 
 ### Kitti odometry
 
-We evaluate GeoTransformer on the standard Kitti benchmark as in [PREDATOR](https://arxiv.org/abs/2011.13005).
+We evaluate S2Reg on the standard Kitti benchmark as in [PREDATOR](https://arxiv.org/abs/2011.13005).
 
 | Benchmark |  RRE  |  RTE  |  RR   |
 | :-------- | :---: | :---: | :---: |
