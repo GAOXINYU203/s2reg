@@ -37,13 +37,13 @@ Code has been tested with Ubuntu 20.04, GCC 9.3.0, Python 3.8, PyTorch 1.7.1, CU
 
 ## Pre-trained Weights
 
-We provide pre-trained weights from [weights](https://pan.baidu.com/s/1wKk-PtAKfF3UjzW4N4oalQ?pwd=qn5r). Please download the latest weights and put them in `weights` directory.
+We provide pre-trained weights from [weights](https://pan.baidu.com/s/1WbFQReHDX__Q3cEuC1t7DQ?pwd=v88d). Please download the latest weights and put them in `weights` directory.
 
 ## 3DMatch
 
 ### Data preparation
 
-The 3DMatch dataset can be downloaded from [PREDATOR](https://github.com/prs-eth/OverlapPredator) and Semantic-3DMatch dataset can be downloaded from [Semantic-3DMatch](https://pan.baidu.com/s/1-uQTf47WC1fh07PGhTr2uQ?pwd=sffc) . The data should be organized as follows:
+The 3DMatch dataset can be downloaded from [PREDATOR](https://github.com/prs-eth/OverlapPredator) and Semantic-3DMatch dataset can be downloaded from [Semantic-3DMatch](https://pan.baidu.com/s/1IqHTEqYMv34jb3XlkeJFBA?pwd=iv4f) . The data should be organized as follows:
 
 ```text
 --data--3DMatch--metadata
@@ -93,7 +93,8 @@ Replace `3DMatch` with `3DLoMatch` to evaluate on 3DLoMatch.
 
 ### Data preparation
 
-Download the data from the [Kitti official website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php) into `data/Kitti` and run `data/Kitti/downsample_pcd.py` to generate the data. Download the semantic data from  [Semantic-KITTI](https://pan.baidu.com/s/1YHGWaFfwP36r7fnnF6f0VA?pwd=959u) The data should be organized as follows:
+Download the data from the [Kitti official website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php) into `data/Kitti` and run `data/Kitti/downsample_pcd.py` to generate the data. Download the semantic data from  [Semantic-KITTI](
+https://pan.baidu.com/s/1nj4NtwPARFZIHej3qq4_-Q?pwd=vw6g) The data should be organized as follows:
 
 ```text
 --data--Kitti--metadata
